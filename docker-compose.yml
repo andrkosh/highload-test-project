@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  defender:
+    build: ./defender
+    container_name: defender
+    ports:
+      - "8080:80"
+
+  slowloris:
+    build: ./slowloris
+    command: "-s 10000 http://defender"
+    depends_on:
+      - defender

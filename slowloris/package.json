@@ -1,0 +1,20 @@
+{
+  "name": "slowloris",
+  "version": "1.0.0",
+  "description": "![slow loris picture](https://upload.wikimedia.org/wikipedia/commons/b/b8/Slowloris_DDOS.png)",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "commander": "^2.19.0",
+    "signale": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-google": "^0.12.0"
+  }
+}
