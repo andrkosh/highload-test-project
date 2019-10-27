@@ -1,7 +1,7 @@
 ## Usage
 
 ### Run services
-The following command will run a container with Nginx web-server that can be reached by http://localhost:8080 form your browser
+The following command will run a container with Nginx web-server that can be reached by http://localhost:8080 from your browser
 and a container that will perform SlowLoris attack to Nginx with 10k connections.
 
 ```
