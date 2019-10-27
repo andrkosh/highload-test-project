@@ -8,7 +8,7 @@ and a container that will perform SlowLoris attack to Nginx with 10k connections
 docker-compose up
 ```
 
-If you want to scale attack, user --scale option as follow
+If you want to scale attack, use the --scale option as follow:
 ```
 docker-compose up --scale slowloris=[N]
 ```
